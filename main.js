@@ -96,11 +96,10 @@ function main() {
 
     // The adapters config (in the instance object everything under the attribute "native") is accessible via
     // adapter.config:
-    adapter.log.info('config test1: '    + adapter.config.test1);
-    adapter.log.info('config test1: '    + adapter.config.test2);
-    adapter.log.info('config mySelect: ' + adapter.config.mySelect);
+    adapter.log.info('config IP: '    + adapter.config.IP);
 
-
+    var avr = require("../../pioneer-avr");
+    
     /**
      *
      *      For every state in the system there has to be also an object of type state
@@ -110,6 +109,30 @@ function main() {
      *      Because every adapter instance uses its own unique namespace variable names can't collide with other adapters variables
      *
      */
+    
+    var options = {
+    port: 23,
+    host: config.ip,
+    log: true
+    };
+    
+    adapter.setObject('Connection', {
+                      type: 'state',
+                      common: {
+                      name: 'Connection',
+                      type: 'boolean',
+                      role: 'indicator'
+                      },
+                      native: {}
+                      });
+    
+    var receiver = new avr.VSX(options);
+    
+        //trigger on connection
+    receiver.on("connect", function() {
+                adapter.setState('Connection', true);
+                });
+
 
     adapter.setObject('testVariable', {
         type: 'state',
