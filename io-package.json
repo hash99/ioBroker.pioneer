@@ -52,7 +52,7 @@
         "materialize": true,
         "enabled": true,
         "extIcon": "https://raw.githubusercontent.com/hash99/ioBroker.pioneer/master/admin/pioneer.png",
-        "keywords": ["pioneer", "vis", "GUI", "graphical", "scada"],
+        "keywords": ["pioneer", "VSX"],
         "readme": "https://github.com/hash99/ioBroker.pioneer/blob/master/README.md",
         "loglevel": "info",
         "type": "general",
