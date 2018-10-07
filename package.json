@@ -1,6 +1,6 @@
 {
   "name": "pioneer",
-  "version": "0.6.0",
+  "version": "0.0.1",
   "description": "pioneer",
   "author": {
     "name": "Helmut Horras",
@@ -24,7 +24,9 @@
     "type": "git",
     "url": "https://github.com/ioBroker/ioBroker.pioneer"
   },
-  "dependencies": {},
+  "dependencies": {
+    "pioneer-avr": "^0.0.1"
+  },
   "devDependencies": {
     "gulp": "^3.9.1",
     "mocha": "^4.1.0",

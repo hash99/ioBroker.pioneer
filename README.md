@@ -11,7 +11,7 @@ This is an adaption to the javascript of the Blog: https://forum.iobroker.net/vi
     in /opt/iobroker/node_modules:
     npm install https://github.com/stormboy/node-pioneer-avr.git 
  
-2. cpm install https://github.com/hash99/ioBroker.pioneer.git
+2. npm install https://github.com/hash99/ioBroker.pioneer.git
 
 3. Fill in the instance Config the correct IP-address 
   
