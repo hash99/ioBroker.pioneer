@@ -1,7 +1,7 @@
 {
-  "name": "pioneer",
-  "version": "0.0.1",
-  "description": "pioneer",
+  "name": "iobroker.pioneer",
+  "version": "0.0.2",
+  "description": "pioneer AVR Adapter",
   "author": {
     "name": "Helmut Horras",
     "email": "hash99@iesy.net"
@@ -12,7 +12,7 @@
       "email": "hash99@iesy.net"
     }
   ],
-  "homepage": "https://github.com/ioBroker/ioBroker.pioneer",
+  "homepage": "https://github.com/hash99/ioBroker.pioneer",
   "license": "MIT",
   "keywords": [
     "ioBroker",
@@ -22,11 +22,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ioBroker/ioBroker.pioneer"
+    "url": "https://github.com/hash99/ioBroker.pioneer"
   },
-  "dependencies": {
-    "pioneer-avr": "^0.0.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "gulp": "^3.9.1",
     "mocha": "^4.1.0",
