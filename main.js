@@ -231,7 +231,7 @@ function main() {
 */
     
     var options = {
-    port: 23,
+    port: adapter.config.PORT,
     host: adapter.config.IP,
     log: true
     };
