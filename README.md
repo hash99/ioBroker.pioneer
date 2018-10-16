@@ -23,7 +23,7 @@ To use the Zone2 you need to install another node-pioneer-avr script, till the p
 ## Changelog
 
 ### 0.0.2
-* (beb0e) Add possibility to change port
+* add possibility to change port
 * fix one span issue
 
 ### 0.0.1
