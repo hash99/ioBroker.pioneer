@@ -32,7 +32,7 @@ To use the Zone2 you need to install another node-pioneer-avr script, till the p
 ## License
 The MIT License (MIT)
 
-Copyright (c) 2018 Helmut Horras <hash99@iesy.net>
+Copyright (c) 2018 <hash99@iesy.net>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
